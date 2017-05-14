@@ -1,0 +1,86 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../style/fixstyle.css">
+	<script type="text/javascript" src="../../script/carpmenu.js"></script>
+	<script type="text/javascript">
+		var _rys = jQuery.noConflict();
+		_rys("document").ready(function(){
+		
+			_rys(window).scroll(function () {
+				if (_rys(this).scrollTop() > 59) {
+					_rys('.menu').addClass("inmovil");
+				} else {
+					_rys('.menu').removeClass("inmovil");
+				}
+			});
+
+		});
+	</script>
+	</head>
+	<body>
+	<div class="contenedor">
+		<div class="banner">
+		<img class="logo" src="logo.png">
+	
+		</div>
+		<div class="menu">
+			<ul class="nav">
+				<li style="	padding-left:10%;"><a  href="./index.html">INICIO</a></li>
+				<li><a  href="./productos.html">NUESTROS PRODUCTOS</a></li>
+				<li><a  href="./historia.html">HISTORIA</a></li>
+				<li><a  href="./nosotros.html">QUIENES SOMOS</a></li>
+				<li style="float:right; 	padding-right:10%;"><a  href="./contacto.html">CONTACTANOS</a></li>
+			</ul>
+		</div>
+		<div class ="contenido">
+		<h1>Dist Music</h1>
+		<p>Conoce acerca de DIST MUSIC, una distribuida de instrumentos musicales, Navega en nuestra pagina e informate de nuestra empresa y las marcas que distribuimos.</p>
+		<a href="./productos.html" class="divlink"><div class="paginas" style="background: url('./productos.png'); background-size: 100% auto; background-repeat: no-repeat;"><h2>Nuestros Productos</h2></div></a>
+		<a href="./historia.html" class="divlink"><div class="paginas" style="background: url('./historia.png'); background-size: 100% auto;  background-repeat: no-repeat;"><h2>Historia</h2></div></a>
+		<a href="./Nosotros.html" class="divlink"><div class="paginas" style="background: url('./quien.png'); background-size: 100% auto;  background-repeat: no-repeat;"><h2>Quienes somos</h2></div></a>
+		<a href="./contacto.html" class="divlink"><div class="paginas" style="background: url('./contacto.png'); background-size: 100% auto;  background-repeat: no-repeat;"><h2>Contactanos</h2></div></a>
+		</div>
+		<div class="pie"> 
+		<div class="subpie"><p><img class="redes" src="./twitter.png"><img class ="redes" src="./facebook.png"></p></div>
+		<div class="subpie">Todo los derechos reservados.</div>
+		</div>
+	</div>
+	</body>
+	
+	<div class="despleg">
+		
+			<img onclick="myFunction()" src="../../media/picture/menu.png" id="imagen" class="fixio">
+				<div id="oculto" class="desp-oculto">
+						<a href="../../index.html">Inicio</a>
+						<a href="../curriculo/curriculo.html">Curriculo</a>
+						<button class="accordion">Practica 1</button>
+						<div class="panel">
+						<a href="../practica1/ejercicio1.html">Ejercicio 1</a>
+						<a href="../practica1/ejercicio2.html">Ejercicio 2</a>
+						<a href="../practica1/ejercicio3.html">Ejercicio 3</a>
+						<a href="../practica1/ejercicio4.html">Ejercicio 4</a>
+						</div>
+						<button class="accordion">Practica 2</button>
+						<div class="panel">
+						<a href="../practica2/ejercicio 1.html">Ejercicio 1</a>
+						<a href="../practica2/ejercicio 2.html">Ejercicio 2</a>
+						<a href="../practica2/ejercicio 3.html">Ejercicio 3</a>
+						<a href="../practica2/ejercicio 4.html">Ejercicio 4</a>
+						</div>
+						<a href="../practica3/ejercicio 2.html">Practica 3</a>
+						<a href="../practica4/html.html">Practica 4</a>
+						<a href="../practica5/index.html">Practica 5</a>
+						<a href="../parcial1/index.html">Parcial</a>
+					
+					
+				<button class="accordion">Computo 2</button>
+						<div class="panel">
+							<a href="../practica1c2/index.html">Practica1</a>
+							<a href="../practica2c2/index.html">Practica2</a>
+						</div>
+					
+				</div>
+		</div>
+</html>

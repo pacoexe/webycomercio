@@ -1,0 +1,40 @@
+body{
+	background:url('../img/fondo.jpg')no-repeat;
+	/*background-size: 100%;*/
+}
+/*divs*/
+.estatica{
+	background:red;
+	width: 100px;
+	height:100px;
+	position:static;
+	left:150px;
+	top:150px;
+	}
+.relativa{
+	background:green;
+	width: 100px;
+	height: 100px;
+	position:relative;
+	left:150px;
+	top:150px;
+}
+.absoluta{
+	background:yellow;
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:150px;
+	top:150px;
+}
+.fija{
+	background:black;
+	width:100px;
+	height:100px;
+	position:fixed;
+	left:150px;
+	top:150px;
+}
+p{
+	color:white;
+}
